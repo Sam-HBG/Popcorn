@@ -5,6 +5,11 @@
     <UserSecretsId>aspnet-Popcorn.Webbsite-E8AE145D-470D-4C0D-9C88-B8D14A7F0A6B</UserSecretsId>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Compile Remove="Data\Migrations\20200407132717_test.cs" />
+    <Compile Remove="Data\Migrations\20200407132717_test.Designer.cs" />
+  </ItemGroup>
+
 
   <ItemGroup>
     <PackageReference Include="Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore" Version="3.1.2" />
